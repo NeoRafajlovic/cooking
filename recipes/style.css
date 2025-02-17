@@ -1,0 +1,43 @@
+.recipes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.recipe {
+    height: 70vh;
+    width: 30vw;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.recipe a {
+    text-decoration: none;
+}
+
+.top, .bottom {
+    display: flex;
+    height: 50%;
+    padding: 10px;
+}
+
+.top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 3px dashed black;
+    background-color: wheat;
+}
+
+.top img {
+    border: 3px solid white;
+    width: 15vw;
+    height: 95%;
+}
+
+.top h2 {
+    padding-left: 10px;
+    color: black;
+}
+
+.bottom p {
+    color: black;
+}
