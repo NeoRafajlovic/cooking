@@ -1,0 +1,37 @@
+nav {
+    position: fixed;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100vw;
+    background-color: wheat;
+}
+
+nav ul li {
+    width: 20vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    border-left: 1px solid gray;
+}
+
+#first-nav {
+    justify-content: left;
+    padding-left: 10px;
+    border-left: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
