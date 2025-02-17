@@ -6,23 +6,49 @@ h1, h2 {
 .main-content {
     display: flex;
     justify-content: space-evenly;
-    height: 85vh;
+    height: 95vh;
 }
 
-.main-content div {
+#fav, #latest {
     margin-top: 35px;
     border: 3px solid gray;
     border-radius: 5px;
     height: 65vh;
-    width: 75vh;
+    width: 70vh;
     background-color: antiquewhite;
+}
+
+#fav a, #latest a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    height: 60vh;
+    width: 35vh;
+    display: flex;
+    padding: 5px;
+}
+
+.content h2 {
+    margin-left: 5px;
+}
+
+.content img{
+    border: 3px solid white;
+    width: 35vh;
+    height: 35vh;
 }
 
 #about, #contact {
     background-color: antiquewhite;
-    height: 35vh;
+    height: 15vh;
     width: 50vw;
     border-top: 2px solid gray;
+}
+
+#about p, #contact p {
+    padding: 5px;
 }
 
 #about {
